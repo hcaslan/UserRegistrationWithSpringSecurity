@@ -36,10 +36,13 @@ To set up and run the project locally, follow these steps:
 The project provides the following API endpoints for interacting with the application:
 
 - `POST /registration`: Register a new user. Requires a JSON request body with the following fields: `firstName`, `lastName`, `email`, and `password`. This endpoint is handled by the `RegistrationController` class.
+  
   <img src="https://i.imgur.com/hmeiyrZ.png"/>
 - `GET /registration/confirmation?token={token}`: Confirm the user's email address using the provided token. The token is sent to the user's email upon registration. This endpoint is also handled by the `RegistrationController` class.
+  
   <img src="https://i.imgur.com/h6Vo9n9.png"/>
 - `POST /auth/login`: Authenticate the user by providing their email and password. Returns a JSON response with an authentication token. This endpoint is managed by the `WebSecurityConfig` class.
+  
   <img src="https://i.imgur.com/18IWTb6.png"/>
 
 ## Contributing
