@@ -47,4 +47,4 @@ The project provides the following API endpoints for interacting with the applic
 
 ## Contributing
 
-Contributions to this project are welcome! If you find any issues or have suggestions for improvements please contact with [me](mailto:hcaslan@gmail.com).
+Contributions to this project are welcome! If you find any issues or have suggestions for improvements please contact with [me](mailto:hcaslan.ozen@gmail.com).
